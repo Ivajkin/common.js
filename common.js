@@ -31,4 +31,4 @@ function identity(_) {
     return _;
 }
 
-assert(10 === generate(5,identity).fold(sum));
+assert(10 === generate(5,identity).fold(0, sum));
