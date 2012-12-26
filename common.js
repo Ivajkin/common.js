@@ -8,6 +8,7 @@ var cos = Math.cos,
     random = Math.random,
     sqrt = Math.sqrt,
     ln = Math.log;
+    abs = Math.abs;
     
 
 Array.prototype.fold = function(sum, f) {
