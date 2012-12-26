@@ -1,3 +1,15 @@
+function assert(expression) {
+    if(!expression) throw "Assert failed!";
+}
+
+var cos = Math.cos,
+    sin = Math.sin,
+    π = Math.PI,
+    random = Math.random,
+    sqrt = Math.sqrt,
+    ln = Math.log;
+    
+
 Array.prototype.fold = function(sum, f) {
     for(var i = 0; i < this.length; ++i) {
         sum = f(sum, this[i]);
