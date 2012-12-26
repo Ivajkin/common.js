@@ -30,3 +30,5 @@ function generate(N, f) {
 function identity(_) {
     return _;
 }
+
+assert(10 === generate(5,identity).fold(sum));
